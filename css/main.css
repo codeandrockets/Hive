@@ -1,0 +1,77 @@
+/***************   General Styling     *************************/
+
+html, body, h1, h2, h3, h4, p, a {
+	margin: 0px;
+}
+
+h1 {
+	font-size: 3em;
+	padding: 0.5em;
+}
+
+.hive-logo {
+	font-family: Lobster;
+	color: #ff69b4;
+	margin: 0 3px;
+}
+
+/******************** Header Styling *********************/
+
+.header-section {
+	height:100vh;
+	min-width: 100%;
+	min-height: 100%;
+	background-color: #D3D3D3;
+	background: url('../img/bg.jpg') no-repeat;
+	background-position: cover;
+	position: relative;
+}
+
+.header-section img {
+	 width:40%;
+	  display:block;
+	  position:absolute;
+	  left:0;
+	  right:0;
+	  bottom:0;
+	  margin:auto;
+}
+
+.header-section h2 {
+	font-size: 64px;
+}
+
+.header-section h3 {
+	font-size: 34px;
+}
+
+.main-header {
+	text-align: center;
+}
+
+.content {
+	text-align: center;
+}
+
+.content h2 {
+	margin: 40px 0 20px;
+}
+
+.join-button {
+	display: block;
+	margin: 35px auto;
+	border-radius: 15px;
+	padding: 15px 20px;
+	border-color: #fff;
+	background-color: #fff;
+}
+
+.features-img {
+	height: 120px;
+	margin-top: 30px;
+}
+
+.feature-text {
+	margin: 20px auto;
+	width: 70%;
+}
