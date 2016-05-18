@@ -75,3 +75,27 @@ h1 {
 	margin: 20px auto;
 	width: 70%;
 }
+
+/**********    expanded-benefits     **********/
+
+.expanded-benefits {
+	background-color: #E8E8E8;
+	height: 530px;
+}
+
+.expanded-content {
+	margin-top: 150px;
+	width: 60%;
+}
+
+.expanded-content h3{
+	margin-bottom: 20px;
+}
+
+.expanded-button{
+	margin-top: 20px;
+	background-color: transparent;
+	border: 5px solid #525252;
+	border-radius: 15px;
+	padding: 10px 15px;
+}
