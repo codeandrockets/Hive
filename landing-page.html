@@ -27,12 +27,28 @@
   </head>
 
   <body>
+
+<!-- Overlay Section -->
+  <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <p>Sign Up</p>
+    </div>
+
+</div>
+
+
     <div class="header-section">
       <h1 class="hive-logo">Hive</h1>
       <img class="hamburger" src="img/hamburger.png" alt="">
       <h2 class="main-header">Getting work done is simple</h2>
       <h3 class="main-header"><span class="hive-logo">Hive</span> is here to help you get the job done</h3>
-      <button class="join-button">Join <span class="hive-logo">Hive</span>Now</button>
+      <span onclick="openNav()"><button class="join-button">Join<span class="hive-logo">Hive</span>Now</button></span>
       <img src="img/iphone.jpg" src="">
     </div>
     <div class="container">
@@ -155,6 +171,38 @@
               </div>
             </div>
           </div>
-      </div>  
+      </div>
+      <div class="container hive-users">
+        <h2 >Who's are using Hive?</h2>
+        <p class="hive-users-sub">These people just like you have been improving their lives with Hive.</p>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="img/jess.jpg" alt="">
+            <p class="users-name">Jess K.</p>
+            <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="read-more">Read More</div>
+          </div>
+          <div class="col-md-4">
+             <img src="img/mark.jpg" alt="">
+             <p class="users-name">Mark Z.</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="read-more">Read More</div>
+          </div>
+          <div class="col-md-4">
+             <img src="img/hannah.jpg" alt="">
+             <p class="users-name">Hannah D.</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="read-more">Read More</div>
+          </div>
+        </div>
+      <div>
+      <div class="media-section">
+        <h2>Check out Hive in the news!</h2>
+          <p>Stuff ect</p>
+      </div>
+      <script src="js/script.js"></script>
   </body>
 </html>
