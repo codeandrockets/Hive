@@ -109,12 +109,66 @@ h1 {
 	padding: 10px 15px;
 }
 
+.expanded-second {
+	background-color: #fff;
+}
+
+/**********    join     **********/
+
 .join-form {
-	height: 250px;
+	height: 200px;
 	background: #45c6cb; /* For browsers that do not support gradients */
 	background: -webkit-linear-gradient(left, #45c6cb , #F5516E); /* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(right, #45c6cb, #F5516E); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(right, #45c6cb, #F5516E); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(to right, #45c6cb, #F5516E); /* Standard syntax */
+}
 
+.join-content {
+	margin-top: 60px;
+}
+
+.signup-input {
+	display: inline;
+	float: left;
+	border-radius: 10px;
+}
+
+.signup-button {
+
+	float: left;
+	background: transparent;
+	color: #fff;
+	border-radius: 10px;
+	border-color: 10px;
+}
+
+.join-headline {
+	font-size: 26px;
+}
+
+/**********    feature overview     **********/
+
+.feature-overview {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.feature-overview p {
+	margin: 0 auto 30px;
+	width: 60%;
+}
+
+.featured-headline {
+	margin-bottom: 15px;
+}
+
+.overview-img {
+	height: 80px;
+	display: block;
+	margin: 0 auto;
+} 
+
+.feature-text {
+	text-align: center;
 }
